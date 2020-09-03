@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+section {
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 1em;
+	padding-left: 0px;
+}
+#frase {
+	font-size: 3.8em;
+	color: #FFF;
+	text-align: center;
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	background-color: #903;
+	padding-top: 0.9em;
+	padding-bottom: 0.9em;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.info-caja {
+	clear: both;
+	float: left;
+	width: 96%;
+	margin-top: 1.5em;
+	margin-right: 2%;
+	margin-bottom: 1em;
+	margin-left: 2%;
+	overflow: hidden;
+	background-color: #F3F3F3;
+	border-radius: 2em;
+	padding-top: 2.5em;
+	padding-bottom: 2em;
+}
+.info-caja .titulo-caja {
+	font-size: 4.8em;
+	color: #903;
+	clear: both;
+	float: left;
+	margin-top: 0.5em;
+	margin-right: 0px;
+	margin-bottom: 0.2em;
+	margin-left: 5%;
+	overflow: hidden;
+	text-align: center;
+	border-bottom-width: 0.15em;
+	border-bottom-style: solid;
+	border-bottom-color: #903;
+	padding: 0px;
+}
+.info-caja .texto-caja {
+	font-size: 2.6em;
+	color: #2B000E;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 90%;
+	margin-top: 0.8em;
+	margin-bottom: 0px;
+	overflow: hidden;
+	text-align: justify;
+	line-height: 1.2em;
+	margin-right: 5%;
+	margin-left: 5%;
+}

@@ -1,0 +1,278 @@
+@charset "utf-8";
+#slider {
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	max-height: 400px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#slider .contenedor-slide {
+	width: 100%;
+}
+#slider .contenedor-slide .atras{
+	position: absolute;
+	z-index: 10;
+	right: 5.5%;
+	bottom: 4%;
+}
+#slider .contenedor-slide .siguiente{
+	position: absolute;
+	z-index: 10;
+	right: 1.5%;
+	bottom: 4%;
+}
+
+
+#slider .callbacks_container {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+/*! http://responsiveslides.com v1.54 by @viljamis */
+
+#slider .callbacks_container .rslides{
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	clear: both;
+	float: left;
+  }
+
+#slider .callbacks_container .rslides .item-slide {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+}
+#slider .callbacks_container .rslides .item-slide:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+#slider .callbacks_container .rslides .item-slide .imagen-slide {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+#slider .callbacks_container .rslides .item-slide .imagen-slide .titulo-slide {
+	position: absolute;
+	top: 11%;
+	right: 2%;
+	font-size: 18.8px;
+	color: #980138;
+	width: 300px;
+	margin: 0px;
+	padding: 0px;
+}
+#slider .callbacks_container .rslides .item-slide .imagen-slide .subtitulo-slide {
+	position: absolute;
+	top: 22%;
+	right: 2%;
+	font-size: 15px;
+	color: #20000C;
+	width: 300px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+#slider .callbacks_container .rslides .item-slide .imagen-slide .img-slide {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	display: block;
+	border-radius: 3px 3px 3px 3px;
+	text-align: right;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+#slider .callbacks_container .rslides .item-slide .imagen-slide .caption{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-image: url(file:///D|/Estudio%20Xeron/wamp/www/Pizza%20al%20cuadrado%20v2.1/activos/caption_slider.png);
+	color: #CCC;
+	width: 97%;
+	font-size: 18px;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-top: 8px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FF6600;
+	font-weight: bold;
+	padding-bottom: 8px;
+	margin-top: 0px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+}
+
+#contenido {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+#contenido #frase {
+	font-size: 30px;
+	color: #1F1F1F;
+	text-align: center;
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: Eurostile, Arial, serif;
+	font-weight: normal;
+}
+#contenido #informacion {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+#contenido #informacion .info_caja   {
+	float: left;
+	width: 24.33%;
+	margin-right: 3%;
+	margin-left: 3%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+#contenido #informacion .info_caja .titulo_info {
+	font-size: 18px;
+	color: #660133;
+	text-align: center;
+	width: 100%;
+	clear: both;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	background-image: url(../activos/linea-2.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+#contenido #informacion .info_caja .texto_info {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 26px;
+	color: #15000B;
+	clear: both;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+#contenido #informacion .info_caja .texto_info .contacto_info  {
+	color: #003;
+	text-decoration: none;
+}
+#contenido #informacion .info_caja .texto_info .contacto_info:hover {
+	text-decoration: underline;
+}
+
+#clientes {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+#clientes #barra {
+	clear: both;
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: #660133;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#clientes .cliente {
+	float: left;
+	margin-top: 25px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	margin-left: 50px;
+	overflow: hidden;
+	max-width: 130px;
+}
+#clientes .cliente .cliente_img {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: right;
+	width: 100%;
+	overflow: hidden;
+}
+
+#confianza {
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#confianza #barra {
+	clear: both;
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #333;
+	background-color: #FFF0F0;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+#confianza .amigos {
+	float: left;
+	margin-top: 25px;
+	margin-right: 0%;
+	margin-bottom: 25px;
+	margin-left: 0%;
+	overflow: hidden;
+	max-width: 14.28%;
+}
+#confianza .amigos .cliente_img {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: right;
+	width: 100%;
+	overflow: hidden;
+}

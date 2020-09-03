@@ -1,0 +1,93 @@
+@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 0.35em;
+}
+header {
+	margin: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	padding-top: 2em;
+	padding-right: 0px;
+	padding-bottom: 2em;
+	padding-left: 0px;
+	background-color: #FDFBFB;
+	border-bottom-width: 0.1em;
+	border-bottom-style: solid;
+	border-bottom-color: #903;
+}
+#menu_boton {
+	float: left;
+	width: 20%;
+	margin: 0px;
+	padding-top: 2em;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-left: 0em;
+	text-align: center;
+}
+#menu_boton .icono_menu {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	width: 100%;
+	max-width: 6em;
+}
+#logo {
+	padding: 0px;
+	float: left;
+	width: 70%;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-right: 5%;
+	margin-bottom: 0px;
+	margin-left: 5%;
+}
+#logo .logo_img {
+	clear: both;
+	float: left;
+	overflow: hidden;
+	width: 100%;
+}
+footer {
+	font-size: 2.2em;
+	text-align: center;
+	clear: both;
+	float: left;
+	width: 98%;
+	padding-top: 1em;
+	padding-right: 1%;
+	padding-bottom: 1em;
+	padding-left: 1%;
+	background-color: #2D000F;
+	color: #FFF;
+}
+#opciones {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	color: #FFF;
+	background-color: #20000B;
+}
+#opciones .item {
+	font-size: 5em;
+	text-align: center;
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	border-bottom-width: 0.14em;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	clear: both;
+	float: right;
+	width: 90%;
+	color: #FFF;
+	text-decoration: none;
+	margin-right: 5%;
+	margin-left: 5%;
+}

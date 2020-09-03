@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+#slider {
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	max-height: 400px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#slider .contenedor-slide {
+	width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#slider .contenedor-slide .atras{
+	position: absolute;
+	z-index: 10;
+	right: 5%;
+	bottom: 4%;
+}
+#slider .contenedor-slide .siguiente{
+	position: absolute;
+	z-index: 10;
+	right: 2%;
+	bottom: 4%;
+}
+
+
+#slider .callbacks_container {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+/*! http://responsiveslides.com v1.54 by @viljamis */
+
+#slider .callbacks_container .rslides{
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	clear: both;
+	float: left;
+  }
+
+#slider .callbacks_container .rslides .item-slide {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+}
+#slider .callbacks_container .rslides .item-slide:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+#slider .callbacks_container .rslides .item-slide .imagen-slide {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+#slider .callbacks_container .rslides .item-slide .imagen-slide .titulo-slide {
+	position: absolute;
+	top: 17.6%;
+	right: 10.5%;
+	font-size: 25px;
+	color: #980138;
+	width: 250px;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	word-spacing: 0.2em;
+}
+#slider .callbacks_container .rslides .item-slide .imagen-slide .subtitulo-slide {
+	position: absolute;
+	top: 34%;
+	right: 6%;
+	font-size: 20px;
+	color: #1C000B;
+	width: 250px;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	word-spacing: 0.2em;
+	line-height: 35px;
+}
+
+#slider .callbacks_container .rslides .item-slide .imagen-slide .img-slide {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	display: block;
+	border-radius: 3px 3px 3px 3px;
+	text-align: right;
+	width: 100%;
+	clear: both;
+	float: left;
+}
+#slider .callbacks_container .rslides .item-slide .imagen-slide .caption{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-image: url(file:///D|/Estudio%20Xeron/wamp/www/Pizza%20al%20cuadrado%20v2.1/activos/caption_slider.png);
+	color: #CCC;
+	width: 97%;
+	font-size: 18px;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-top: 8px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FF6600;
+	font-weight: bold;
+	padding-bottom: 8px;
+	margin-top: 0px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+}
+#contenido {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+#contenido .titulo {
+	font-size: 29px;
+	color: #903;
+	clear: both;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #903;
+	font-weight: normal;
+}
+
+#contenido .historia {
+	font-size: 16px;
+	text-align: justify;
+	width: 87%;
+	clear: both;
+	float: left;
+	line-height: 35px;
+	color: #333;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(../activos/linea-3.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	padding-bottom: 30px;
+	margin-left: 3%;
+	margin-right: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#contenido .servicios {
+	font-size: 16px;
+	text-align: justify;
+	width: 87%;
+	clear: both;
+	float: left;
+	line-height: 35px;
+	color: #333;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(../activos/linea-3.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	padding-bottom: 30px;
+	margin-left: 3%;
+	margin-right: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 5%;
+	list-style-image: url(../activos/lista.png);
+}
+h3 ,h6{
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+}
+
+#contenido .mapa  {
+	clear: both;
+	float: left;
+	margin-bottom: 30px;
+	width: 100%;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#contenido #como-usar {
+	clear: both;
+	float: left;
+	font-size: 14.5px;
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	background-image: url(../activos/icono-google-maps.jpg);
+	background-position: right center;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}

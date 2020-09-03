@@ -1,0 +1,84 @@
+@charset "utf-8";
+section {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+#frase {
+	font-size: 3.8em;
+	color: #FFF;
+	text-align: center;
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	background-color: #903;
+	padding-top: 0.9em;
+	padding-bottom: 0.9em;
+	text-transform: uppercase;
+}
+
+.info-caja {
+	clear: both;
+	float: left;
+	width: 96%;
+	margin-top: 1.5em;
+	margin-right: 2%;
+	margin-bottom: 1em;
+	margin-left: 2%;
+	overflow: hidden;
+	background-color: #F3F3F3;
+	border-radius: 2em;
+	padding-top: 2.5em;
+	padding-bottom: 2em;
+}
+.info-caja .titulo-caja {
+	font-size: 4em;
+	color: #903;
+	clear: both;
+	float: left;
+	margin-top: 0.5em;
+	margin-right: 0px;
+	margin-bottom: 0.2em;
+	margin-left: 5%;
+	overflow: hidden;
+	text-align: center;
+	border-bottom-width: 0.15em;
+	border-bottom-style: solid;
+	border-bottom-color: #903;
+	padding: 0px;
+	max-width: 95%;
+}
+.info-caja .texto-caja {
+	font-size: 2.6em;
+	color: #2B000E;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 0.8em;
+	margin-bottom: 0px;
+	overflow: hidden;
+	text-align: justify;
+	line-height: 1.2em;
+}
+.info-caja .texto-caja .cliente-logo {
+	float: left;
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 1em;
+	margin-bottom: 0.8em;
+}
+.info-caja .texto-caja .cliente-logo .cliente-img {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
